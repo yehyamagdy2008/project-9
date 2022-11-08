@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.header .logo img {
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 180px;
+}
+.button {
+  margin-top: 20px;
+  margin-right: 100px;
+  background-image: linear-gradient(
+    to right,
+    hsl(192, 70%, 51%),
+    hsl(136, 65%, 51%)
+  );
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.button-2 {
+  margin-top: 20px;
+  margin-right: 100px;
+  background-image: linear-gradient(
+    to right,
+    hsl(192, 70%, 51%),
+    hsl(136, 65%, 51%)
+  );
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.header .button:hover {
+  opacity: 0.8;
+}
+.home {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: space-between;
+}
+.home .home-img {
+  background-image: url("./img/bg-intro-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .home-img img {
+  width: 500px;
+  height: 600px;
+  z-index: 1;
+}
+.text-home {
+  height: 100px;
+}
+.home .text-home h1 {
+  margin-top: 150px;
+  margin-left: 150px;
+  font-size: 60px;
+  width: 500px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.home .text-home p {
+  width: 300px;
+  margin-left: 150px;
+  opacity: 0.7;
+}
+.servisec {
+  background-color: rgb(230, 227, 227);
+  padding-bottom: 50px;
+}
+.text-servisec {
+  margin-left: 60px;
+  padding-top: 70px;
+}
+.text-servisec h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.text-servisec p {
+  width: 550px;
+  opacity: 0.8;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+.container div img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+.container div h1 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.container div p {
+  width: 250px;
+  opacity: 0.8;
+}
+.latest {
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 50px;
+}
+.latest .logo {
+  font-size: 40px;
+  padding-top: 50px;
+  margin-left: 100px;
+  font-weight: 400;
+}
+.container-latest {
+  display: flex;
+  justify-content: center;
+}
+.container-latest div {
+  margin-top: 30px;
+  width: 255px;
+  background-color: white;
+  margin-right: 20px;
+  height: 360px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.container-latest div:hover {
+  position: relative;
+  top: -10px;
+  box-shadow: 0 0 5px black;
+}
+.container-latest div img {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px 10px 0px 0px;
+}
+.container-latest div span {
+  font-size: 12px;
+  opacity: 0.5;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.container-latest div h1 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container-latest div h1:hover {
+  color: hsl(136, 65%, 51%);
+}
+.container-latest div p {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-inline: 10px;
+  opacity: 0.7;
+}
+footer {
+  background-color: hsl(233, 26%, 24%);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+footer .child-1 .logo {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 170px;
+  padding: 10px;
+  border-radius: 10px;
+}
+footer .child-1 div {
+  margin-left: 170px;
+  margin-top: 60px;
+}
+footer .child-1 div img {
+  margin-right: 10px;
+}
+footer .child-2 {
+  display: flex;
+  margin-top: 70px;
+}
+footer .child-2 div:nth-child(1) {
+  margin-right: 100px;
+}
+footer .child-2 div span {
+  display: block;
+  padding-bottom: 18px;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .child-2 div span:hover {
+  color: hsl(136, 65%, 51%);
+}
+.child-3 {
+  width: 400px;
+}
+.button-3 {
+  margin-top: 20px;
+  margin-right: 100px;
+  background-image: linear-gradient(
+    to right,
+    hsl(192, 70%, 51%),
+    hsl(136, 65%, 51%)
+  );
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.child-3 p {
+  margin-top: 40px;
+  margin-left: 55px;
+  color: white;
+}
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .logo img {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .button {
+    margin: 20px auto;
+  }
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 250px;
+  }
+  .home .text-home h1 {
+    font-size: 40px;
+    width: 300px;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 30px;
+  }
+  .home .text-home p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .home .home-img img {
+    display: none;
+  }
+  .text-servisec {
+    margin-left: 0;
+  }
+  .text-servisec h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .text-servisec p {
+    text-align: center;
+    margin: 15px auto;
+    width: 350px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container div {
+    text-align: center;
+  }
+  .container div h1 {
+    margin-bottom: 10px;
+  }
+  .container div img {
+    width: 70px;
+    margin: 15px auto;
+  }
+  .latest .logo {
+    margin-left: 0;
+    text-align: center;
+  }
+  .container-latest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-latest div {
+    margin-right: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .child-1 .logo {
+    margin-left: 0;
+  }
+  footer .child-1 div {
+    margin-left: 0;
+  }
+}
